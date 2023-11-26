@@ -4,7 +4,7 @@
 
 - supports x86 / x64, supports BIOS / UEFI setups
 
-- supports updating recovery image mas you add things to your system
+- supports updating recovery image as you add things to your system
 
 - requires no-third party applications, uses only what is provided in the WAIK
 
