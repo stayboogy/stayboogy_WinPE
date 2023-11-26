@@ -1,0 +1,33 @@
+bcdedit /set {bootmgr} displaybootmenu yes
+
+bcdedit /timeout 7
+
+
+
+bcdedit.exe /store C:\Boot\BCD /create /device
+
+command output = {guid1}
+
+
+
+bcdedit.exe /store C:\Boot\BCD /set {guid1} ramdisksdidevice partition=X:
+
+bcdedit.exe /store C:\Boot\BCD /set {guid1} ramdisksdipath \boot.sdi
+
+
+
+bcdedit.exe /store C:\Boot\BCD /create /d "Recovery" /application osloader
+
+command output = {guid2}
+
+
+
+bcdedit.exe /store C:\Boot\BCD /set {guid2} systemroot \Windows
+
+bcdedit.exe /store C:\Boot\BCD /set {guid2} winpe yes
+
+bcdedit.exe /store C:\Boot\BCD /set {guid2} osdevice ramdisk=[X:]\factory.wim,{guid1}
+
+bcdedit.exe /store C:\Boot\BCD /set {guid2} device ramdisk=[X:]\factory.wim,{guid1}
+
+bcdedit.exe /store C:\Boot\BCD /displayorder {guid2} /addlast
