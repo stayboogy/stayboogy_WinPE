@@ -4,6 +4,10 @@
 
 - supports x86 / x64, supports BIOS / UEFI setups
 
+- supports updating recovery image mas you add things to your system
+
+- requires no-third party applications, uses only what is provided in the WAIK
+
 ## How to Use
 
 1) create a basic WinPE iso from the WAIK - does not require any added components not even DismCmdlets
@@ -32,7 +36,7 @@ boot.sdi
 System.tag
 ```
 
-6) use your chosen method to add your WinPE boot.wim on your bcdstore as your second boot option
+6) use your chosen method to add your WinPE boot.wim in your bcdstore as your second boot option
 
 7) reboot your system and choose your new Recovery Boot Option
 
