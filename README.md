@@ -8,6 +8,10 @@
 
 - requires no-third party applications, uses only what is provided in the WAIK
 
+# Complete Video Tutorial
+
+- https://rumble.com/v48a635-stayboogy-winpe-autorestore-v1.13.html
+
 # How to Use
 
 ## 1) create a basic WinPE iso from the WAIK - does not require any added components not even DismCmdlets
