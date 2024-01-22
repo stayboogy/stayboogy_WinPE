@@ -3,8 +3,7 @@ cls
 pushd %~dp0
 dir refresh.wim
 @echo.
-echo MAKE A NEW SYSTEM REFRESH IMAGE AND
-echo DELETE THE PREVIOUS REFRESH IMAGE???
+echo MAKE A NEW SYSTEM REFRESH IMAGE???
 echo.
 echo.
 set /P ANS=OK to continue (Y/N): 
