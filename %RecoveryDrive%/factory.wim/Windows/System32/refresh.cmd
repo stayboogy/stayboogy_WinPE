@@ -47,6 +47,17 @@ echo format fs=ntfs label="Windows" quick>> x:\dp.scr
 echo lis vol>> x:\dp.scr
 echo exit>> x:\dp.scr
 diskpart /s x:\dp.scr
+echo.
+echo.
+echo THIS COULD TAKE A WHILE
+echo.
+echo PLEASE WAIT
+echo.
+echo DO NOT INTERRUPT
+echo.
+echo SYSTEM WILL REBOOT WHEN FINISHED
+echo.
+echo.
 echo Applying the image - please wait...
 dism /apply-image /imagefile:%REC%\refresh.wim /index:1 /applydir:%DRV%\
 wpeutil reboot
