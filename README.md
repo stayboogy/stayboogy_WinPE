@@ -46,6 +46,8 @@ System.tag
 
 ## 6) use your chosen method to add your WinPE boot.wim in your bcdstore as your second boot option
 
+- Bootice v1.3.4 is required - earlier versions will not work properly - make sure you have the proper drive choosen to locate the boot.sdi file especially
+
 or do it manually:
 
 - in code below, replace {guid1}, {guid2}, X:, respectively before running the command

@@ -8,6 +8,9 @@ echo.
 echo DO NOT INTERRUPT THIS PROCESS
 echo.
 echo.
+echo COMPUTER WILL REBOOT WHEN THE PROCESS IS COMPLETE
+echo.
+echo.
 echo DO NOT INTERRUPT THIS PROCESS
 echo.
 echo.
