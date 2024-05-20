@@ -1,4 +1,4 @@
-# stayboogy_WinPE-AutoRestore
+# stayboogy WinPE AutoRestore Recovery
 
 - OEM-esque WinPE AutoRestore system
 
