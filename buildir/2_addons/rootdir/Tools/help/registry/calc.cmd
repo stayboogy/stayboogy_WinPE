@@ -1,0 +1,1 @@
+powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File C:\Install\registry\calc.ps1

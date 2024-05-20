@@ -1,0 +1,3 @@
+qemu-img convert source.img -O format filename 
+
+qemu-img convert -O vdi C:\Users\M\Desktop\VMShare.vhd C:\Users\M\Desktop\VMShare.vdi

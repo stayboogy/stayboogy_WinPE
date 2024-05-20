@@ -1,7 +1,0 @@
-[SystemInfo]
-Version = 6.2.9200
-SystemType = 64Bit
-NumberOfProcessors: = 4
-
-
-.\RegByWan.cpp(596):gethostbyname error! code:11001

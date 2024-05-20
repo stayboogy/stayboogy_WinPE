@@ -1,0 +1,6 @@
+reg load HKLM\WIMSOFTWARE F:\mount\Windows\system32\config\software
+reg load HKLM\WIMSYSTEM F:\mount\Windows\system32\config\system
+reg unload HKLM\WIMSOFTWARE
+reg unload HKLM\WIMSYSTEM
+
+reg add HKLM\WIMSOFTWARE\Microsoft\Windows\CurrentVersion\OOBE /v DisableVoice /d 1 /t REG_DWORD /f

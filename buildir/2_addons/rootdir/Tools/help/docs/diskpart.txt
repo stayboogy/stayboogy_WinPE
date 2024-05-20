@@ -1,0 +1,23 @@
+ laconvert gpt
+create partition efi size=500
+format quick fs=fat32 label="ESP"
+assign letter="S"
+create partition msr size=128
+create partition primary
+shrink minimum=12936
+format quick fs=ntfs label="OS"
+assign letter="W"
+create partition primary size=461 id=de94bba4-06d1-4d40-a16a-bfd50179d6ac
+format quick fs=ntfs label="WINRETOOLS"
+assign letter="T"
+gpt attributes=0x8000000000000001
+create partition primary size=11363 id=de94bba4-06d1-4d40-a16a-bfd50179d6ac
+format quick fs=ntfs label="Image"
+assign letter="R"
+gpt attributes=0x8000000000000001
+create partition primary size=1093 id=de94bba4-06d1-4d40-a16a-bfd50179d6ac
+format quick fs=ntfs label="DELLSUPPORT"
+assign letter="Q"
+gpt attributes=0x8000000000000001
+list vol
+exit

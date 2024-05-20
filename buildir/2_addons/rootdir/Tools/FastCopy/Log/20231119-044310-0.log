@@ -1,0 +1,377 @@
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 04:43:10
+<Source>  E:\0_Master\1_EFI\
+<DestDir> H:\0_Master\
+<Command> Diff (Size/Date)
+-------------------------------------------------
++ H:\0_Master\1_EFI\   <20231029-174319>
++ H:\0_Master\1_EFI\EFI_Files\   <20230808-085431>
++ H:\0_Master\1_EFI\EFI_Files\EFI.zip   <20230519-234652 20,518,932>
++ H:\0_Master\1_EFI\EFI_Files\PowerPerf_EFI_BestBest.zip   <20230427-202122 20,201,386>
++ H:\0_Master\1_EFI\EFI_Files\PowerPerfect.zip   <20230426-090648 20,189,040>
++ H:\0_Master\1_EFI\EFI_Files\EFI\   <20230424-120902>
++ H:\0_Master\1_EFI\EFI_Files\EFI\MacBookPro14,2-smbios.txt   <20230423-014734 142>
++ H:\0_Master\1_EFI\EFI_Files\EFI\._MacBookPro14,2-smbios.txt   <20230424-093126 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\Dell\   <20230424-120902>
++ H:\0_Master\1_EFI\EFI_Files\EFI\Dell\Bios\   <20230424-120902>
++ H:\0_Master\1_EFI\EFI_Files\EFI\Dell\Bios\Recovery\   <20230424-120902>
++ H:\0_Master\1_EFI\EFI_Files\EFI\Dell\Bios\Recovery\BIOS_CUR.RCV   <20230424-120902 6,340,189>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\FIRMWARE\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\FIRMWARE\MBP142.fd   <20230630-091902 8,388,608>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\UPDATERS\   <20230519-111306>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\UPDATERS\MULTIUPDATER\   <20230519-111306>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\UPDATERS\MULTIUPDATER\MultiUpdater.efi   <20230630-091902 102,968>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\UPDATERS\MULTIUPDATER\MultiUpdater.efi.x86legacyap.im4m   <20230615-055528 3,775>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\UPDATERS\MULTIUPDATER\SmcFlasher.efi   <20230630-091902 189,120>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\UPDATERS\MULTIUPDATER\Mac-CAD6701F7CEA0921.smc   <20230630-091902 465,550>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\UPDATERS\MULTIUPDATER\flasher_base.smc   <20230630-091902 109,675>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\UPDATERS\MULTIUPDATER\flasher_update.smc   <20230630-091902 52,735>
++ H:\0_Master\1_EFI\EFI_Files\EFI\APPLE\UPDATERS\MULTIUPDATER\Mac-CAD6701F7CEA0921.epm   <20230630-091902 42,400>
++ H:\0_Master\1_EFI\EFI_Files\EFI\BOOT\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\BOOT\BOOTx64.efi   <20230418-075224 20,484>
++ H:\0_Master\1_EFI\EFI_Files\EFI\BOOT\.contentFlavour   <20230418-075224 8>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\.DS_Store   <20230424-092134 10,244>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\.contentFlavour   <20230418-075224 8>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\OpenCore.efi   <20230418-075224 585,728>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\._config.plist   <20230504-221632 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\config.plist   <20230427-202110 33,448>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\SSDT-EC.aml   <20230424-090136 125>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\.DS_Store   <20230418-081714 6,148>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\SSDT-XOSI.aml   <20230424-090136 389>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\SSDT-HPET.aml   <20230424-090136 318>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\SSDT-USB-WAKE-FIXUP.aml   <20230423-003108 150>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\._SSDT-USB-WAKE-FIXUP.aml   <20230424-093124 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\SSDT-PLUG.aml   <20230424-090136 112>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\SSDT-PNLF.aml   <20230424-090136 141>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\._SSDT-EC.aml   <20230426-075334 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\._SSDT-HPET.aml   <20230426-075350 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\SSDT-USB-MAP.aml   <20230419-082058 515>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\._SSDT-USB-MAP.aml   <20230426-075406 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\._SSDT-PLUG.aml   <20230426-075354 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\._SSDT-PNLF.aml   <20230426-075400 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\ACPI\._SSDT-XOSI.aml   <20230426-075416 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\ControlMsrE2.efi   <20230418-075224 32,772>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\TpmInfo.efi   <20230418-075224 20,484>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\OpenShell.efi   <20230418-075224 1,097,728>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\BootKicker.efi   <20230418-075224 36,868>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\GopStop.efi   <20230418-075224 20,484>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\RtcRw.efi   <20230418-075224 24,580>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\ChipTune.efi   <20230418-075224 24,580>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\KeyTester.efi   <20230418-075224 12,292>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\MmapDump.efi   <20230418-075224 45,056>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\OpenControl.efi   <20230418-075224 24,580>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\CleanNvram.efi   <20230418-075224 36,868>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\CsrUtil.efi   <20230418-075224 28,676>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Tools\ResetSystem.efi   <20230418-075224 24,580>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Drivers\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Drivers\OpenRuntime.efi   <20230418-075224 20,484>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Drivers\.DS_Store   <20230418-075224 6,148>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Drivers\ResetNvramEntry.efi   <20230418-075224 45,060>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Drivers\HfsPlus.efi   <20230418-075224 37,892>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Drivers\OpenCanopy.efi   <20230418-075224 102,400>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Drivers\ToggleSipEntry.efi   <20230418-075224 45,060>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\.DS_Store   <20230424-092134 10,244>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\._USBWakeFixup.kext   <20230424-093124 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\Lilu.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\Lilu.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\Lilu.kext\Contents\Info.plist   <20230418-075224 2,745>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\Lilu.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\Lilu.kext\Contents\MacOS\Lilu   <20230418-075224 526,328>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\RealtekCardReader.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\RealtekCardReader.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\RealtekCardReader.kext\Contents\Info.plist   <20230418-075224 10,865>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\RealtekCardReader.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\RealtekCardReader.kext\Contents\MacOS\RealtekCardReader   <20230418-075224 635,448>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\RealtekCardReader.kext\Contents\Resources\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\RealtekCardReader.kext\Contents\Resources\LICENSE   <20230418-075224 1,531>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\ECEnabler.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\ECEnabler.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\ECEnabler.kext\Contents\Info.plist   <20230418-075224 2,215>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\ECEnabler.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\ECEnabler.kext\Contents\MacOS\ECEnabler   <20230418-075224 29,992>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\AppleALC.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\AppleALC.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\AppleALC.kext\Contents\Info.plist   <20230418-075224 377,608>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\AppleALC.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\AppleALC.kext\Contents\MacOS\AppleALC   <20230418-075224 3,411,072>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\IntelMausi.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\IntelMausi.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\IntelMausi.kext\Contents\Info.plist   <20230418-075224 3,592>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\IntelMausi.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\IntelMausi.kext\Contents\MacOS\IntelMausi   <20230418-075224 172,840>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCDellSensors.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCDellSensors.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCDellSensors.kext\Contents\Info.plist   <20230306-080134 2,936>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCDellSensors.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCDellSensors.kext\Contents\MacOS\SMCDellSensors   <20230306-080138 54,976>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\WhateverGreen.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\WhateverGreen.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\WhateverGreen.kext\Contents\Info.plist   <20230418-075224 3,022>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\WhateverGreen.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\WhateverGreen.kext\Contents\MacOS\WhateverGreen   <20230418-075224 522,336>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCBatteryManager.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCBatteryManager.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCBatteryManager.kext\Contents\Info.plist   <20230306-080110 2,928>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCBatteryManager.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCBatteryManager.kext\Contents\MacOS\SMCBatteryManager   <20230306-080118 202,552>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCBatteryManager.kext\Contents\Resources\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCBatteryManager.kext\Contents\Resources\SSDT-BATC.dsl   <20230306-080118 18,419>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCProcessor.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCProcessor.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCProcessor.kext\Contents\Info.plist   <20230306-080106 2,741>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCProcessor.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCProcessor.kext\Contents\MacOS\SMCProcessor   <20230306-080110 61,248>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\USBWakeFixup.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\USBWakeFixup.kext\._Contents   <20230424-093124 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\USBWakeFixup.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\USBWakeFixup.kext\Contents\._MacOS   <20230424-093124 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\USBWakeFixup.kext\Contents\Info.plist   <20190911-235028 1,947>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\USBWakeFixup.kext\Contents\._Info.plist   <20230424-093124 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\USBWakeFixup.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\USBWakeFixup.kext\Contents\MacOS\USBWakeFixup   <20190911-235028 29,240>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\USBWakeFixup.kext\Contents\MacOS\._USBWakeFixup   <20230424-093124 4,096>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2CHID.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2CHID.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2CHID.kext\Contents\Info.plist   <20230418-075224 11,193>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2CHID.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2CHID.kext\Contents\MacOS\VoodooI2CHID   <20230418-075224 211,128>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VirtualSMC.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VirtualSMC.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VirtualSMC.kext\Contents\Info.plist   <20230306-080048 8,655>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VirtualSMC.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VirtualSMC.kext\Contents\MacOS\VirtualSMC   <20230306-080106 240,368>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\Info.plist   <20230418-075224 4,331>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\MacOS\VoodooPS2Controller   <20230418-075224 102,008>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\PlugIns\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext\Contents\Info.plist   <20230418-075224 20,334>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext\Contents\MacOS\VoodooPS2Keyboard   <20230418-075224 50,344>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCLightSensor.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCLightSensor.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCLightSensor.kext\Contents\Info.plist   <20230306-080118 2,470>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCLightSensor.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\SMCLightSensor.kext\Contents\MacOS\SMCLightSensor   <20230306-080120 34,432>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\Info.plist   <20230418-075224 18,491>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\MacOS\VoodooI2C   <20230418-075224 235,088>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooGPIO.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooGPIO.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooGPIO.kext\Contents\Info.plist   <20230418-075224 3,459>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooGPIO.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooGPIO.kext\Contents\MacOS\VoodooGPIO   <20230418-075224 155,856>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooI2CServices.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooI2CServices.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooI2CServices.kext\Contents\Info.plist   <20230418-075224 2,343>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooI2CServices.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooI2CServices.kext\Contents\MacOS\VoodooI2CServices   <20230418-075224 43,120>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooInput.kext\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooInput.kext\Contents\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooInput.kext\Contents\Info.plist   <20230418-075224 2,125>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooInput.kext\Contents\_CodeSignature\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooInput.kext\Contents\_CodeSignature\CodeResources   <20230418-075224 2,200>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooInput.kext\Contents\MacOS\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Kexts\VoodooI2C.kext\Contents\PlugIns\VoodooInput.kext\Contents\MacOS\VoodooInput   <20230418-075224 102,256>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\.DS_Store   <20230418-075224 6,148>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Shell.lbl   <20230418-075224 605>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Windows.l2x   <20230418-075224 4,949>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\ResetNVRAM.l2x   <20230418-075224 3,221>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Tool.lbl   <20230418-075224 257>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\SIPDisabled.lbl   <20230418-075224 1,193>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\AppleTM.l2x   <20230418-075224 3,149>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\EFIBoot.l2x   <20230418-075224 1,997>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Other.l2x   <20230418-075224 2,165>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\AppleRecv.l2x   <20230418-075224 3,917>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\SIPEnabled.lbl   <20230418-075224 1,169>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Apple.l2x   <20230418-075224 1,733>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\AppleTM.lbl   <20230418-075224 785>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\EFIBoot.lbl   <20230418-075224 497>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Other.lbl   <20230418-075224 545>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\AppleRecv.lbl   <20230418-075224 977>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\SIPEnabled.l2x   <20230418-075224 4,661>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Apple.lbl   <20230418-075224 437>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Shell.l2x   <20230418-075224 2,405>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Windows.lbl   <20230418-075224 1,241>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\ResetNVRAM.lbl   <20230418-075224 809>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\Tool.l2x   <20230418-075224 1,037>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Label\SIPDisabled.l2x   <20230418-075224 4,781>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\.DS_Store   <20230418-075224 6,148>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\.DS_Store   <20230418-075224 6,148>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\   <20230424-093124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple11.icns   <20230418-075224 24,882>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Shell.icns   <20230418-075224 26,162>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_11.icns   <20230418-075224 38,340>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_7.icns   <20230418-075224 44,059>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Mint.icns   <20230418-075224 19,634>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv11.icns   <20230418-075224 25,323>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\KDE-Neon.icns   <20230418-075224 45,023>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Mageia.icns   <20230418-075224 33,225>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Windows10.icns   <20230418-075224 19,789>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Right.icns   <20230418-075224 2,506>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Restart.icns   <20230418-075224 1,966>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv10_8.icns   <20230418-075224 43,670>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_15.icns   <20230418-075224 38,748>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_7.icns   <20230418-075224 44,484>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv13.icns   <20230418-075224 28,142>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv10_10.icns   <20230418-075224 43,124>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv10_11.icns   <20230418-075224 38,991>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv12.icns   <20230418-075224 26,878>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_6.icns   <20230418-075224 45,261>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv10_7.icns   <20230418-075224 44,640>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv10_9.icns   <20230418-075224 38,674>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\.DS_Store   <20230418-075224 14,340>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_14.icns   <20230418-075224 27,789>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Enter.icns   <20230418-075224 1,340>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\SetDefault.icns   <20230418-075224 1,975>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Pop!OS.icns   <20230418-075224 25,432>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Windows11.icns   <20230418-075224 23,245>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Endeavour.icns   <20230418-075224 21,778>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_6.icns   <20230418-075224 44,956>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Windows.icns   <20230418-075224 23,245>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Manjaro.icns   <20230418-075224 20,048>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_10.icns   <20230418-075224 42,733>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleTM.icns   <20230418-075224 26,413>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Elementary.icns   <20230418-075224 29,270>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple13.icns   <20230418-075224 28,228>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\BtnFocus.icns   <20230418-075224 2,302>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_13.icns   <20230418-075224 39,390>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Nixos.icns   <20230418-075224 22,219>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ToggleSip.icns   <20230418-075224 27,069>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Arch.icns   <20230418-075224 23,229>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv10_11.icns   <20230418-075224 38,857>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Deepin.icns   <20230418-075224 30,138>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv10_10.icns   <20230418-075224 42,624>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Puppy.icns   <20230418-075224 35,378>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_12.icns   <20230418-075224 42,311>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple12.icns   <20230418-075224 26,818>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv10_14.icns   <20230418-075224 28,700>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Lock.icns   <20230418-075224 10,653>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ResetNVRAM.icns   <20230418-075224 27,525>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_11.icns   <20230418-075224 38,226>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\MX-Linux.icns   <20230418-075224 16,576>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple11.icns   <20230418-075224 25,105>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_15.icns   <20230418-075224 37,640>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv10_13.icns   <20230418-075224 39,999>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ShutDown.icns   <20230418-075224 1,632>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Cursor.icns   <20230418-075224 1,251>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Red-Hat.icns   <20230418-075224 23,416>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv10_12.icns   <20230418-075224 42,424>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_14.icns   <20230418-075224 26,395>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Debian.icns   <20230418-075224 26,942>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Password.icns   <20230418-075224 525>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\HardDrive.icns   <20230418-075224 27,023>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Gentoo.icns   <20230418-075224 23,753>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Ataraxia.icns   <20230418-075224 24,095>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleTM.icns   <20230418-075224 27,880>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\CentOS.icns   <20230418-075224 30,536>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Endless.icns   <20230418-075224 24,241>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_10.icns   <20230418-075224 42,920>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Alpine.icns   <20230418-075224 20,549>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtHardDrive.icns   <20230418-075224 26,997>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv10_15.icns   <20230418-075224 39,521>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple.icns   <20230418-075224 26,339>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv10_8.icns   <20230418-075224 43,742>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_9.icns   <20230418-075224 38,930>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Selected.icns   <20230418-075224 311>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_13.icns   <20230418-075224 39,732>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Tool.icns   <20230418-075224 27,431>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple13.icns   <20230418-075224 27,880>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv10_15.icns   <20230418-075224 38,503>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Dot.icns   <20230418-075224 651>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_9.icns   <20230418-075224 37,487>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv10_12.icns   <20230418-075224 42,306>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv11.icns   <20230418-075224 25,410>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv13.icns   <20230418-075224 28,239>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv12.icns   <20230418-075224 26,912>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ReactOS.icns   <20230418-075224 25,722>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Selector.icns   <20230418-075224 1,956>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv.icns   <20230418-075224 27,880>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Clear.icns   <20230418-075224 29,114>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Linux.icns   <20230418-075224 34,892>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Xubuntu.icns   <20230418-075224 23,971>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Almalinux.icns   <20230418-075224 20,226>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_8.icns   <20230418-075224 43,369>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv10_13.icns   <20230418-075224 39,738>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv.icns   <20230418-075224 27,242>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Ubuntu.icns   <20230418-075224 22,080>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Fedora.icns   <20230418-075224 35,837>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\FreeBSD.icns   <20230418-075224 37,656>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Kubuntu.icns   <20230418-075224 27,214>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv10_14.icns   <20230418-075224 28,556>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple12.icns   <20230418-075224 26,784>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\AppleRecv10_7.icns   <20230418-075224 44,487>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Apple10_12.icns   <20230418-075224 42,402>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtAppleRecv10_9.icns   <20230418-075224 39,117>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\ExtApple10_8.icns   <20230418-075224 43,273>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\stayboogy\Clean\Left.icns   <20230418-075224 2,508>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\   <20230424-093126>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\.DS_Store   <20230418-075224 6,148>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\.gitkeep   <20230418-075224 2>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\   <20230424-093126>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Shell.icns   <20230418-075224 50,495>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ExtResetNVRAM.icns   <20230418-075224 59,172>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Right.icns   <20230418-075224 2,563>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Restart.icns   <20230418-075224 5,790>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\.DS_Store   <20230418-075224 6,148>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Enter.icns   <20230418-075224 1,115>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\SetDefault.icns   <20230418-075224 3,313>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ExtShell.icns   <20230418-075224 31,970>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Windows.icns   <20230418-075224 62,836>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ExtTool.icns   <20230418-075224 34,730>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\AppleTM.icns   <20230418-075224 57,770>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\BtnFocus.icns   <20230418-075224 2,650>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Lock.icns   <20230418-075224 1,889>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ResetNVRAM.icns   <20230418-075224 59,172>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ShutDown.icns   <20230418-075224 6,168>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ExtApple.icns   <20230418-075224 48,381>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Cursor.icns   <20230418-075224 1,251>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Password.icns   <20230418-075224 375>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\HardDrive.icns   <20230418-075224 64,330>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ExtAppleTM.icns   <20230418-075224 51,380>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ExtWindows.icns   <20230418-075224 58,970>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ExtHardDrive.icns   <20230418-075224 44,785>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Apple.icns   <20230418-075224 57,928>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Selected.icns   <20230418-075224 3,875>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Tool.icns   <20230418-075224 30,405>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Dot.icns   <20230418-075224 293>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ExtOther.icns   <20230418-075224 48,863>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Selector.icns   <20230418-075224 3,010>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\ExtAppleRecv.icns   <20230418-075224 78,306>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Other.icns   <20230418-075224 57,858>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\AppleRecv.icns   <20230418-075224 86,988>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Image\Acidanthera\GoldenGate\Left.icns   <20230418-075224 2,571>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Audio\   <20230424-093126>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Audio\.DS_Store   <20230418-075224 6,148>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Font\   <20230424-093126>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Font\Font_2x.bin   <20230418-075224 1,988>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Font\Font_2x.png   <20230418-075224 7,424>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Font\Font.png   <20230418-075224 3,685>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Font\Font_1x.png   <20230418-075224 3,426>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Font\Font.bin   <20230418-075224 1,985>
++ H:\0_Master\1_EFI\EFI_Files\EFI\OC\Resources\Font\Font_1x.bin   <20230418-075224 1,985>
+
+TotalRead  = 86 MiB
+TotalWrite = 86 MiB
+TotalFiles = 274 (87)
+TotalTime  = 3.1 sec
+TransRate  = 29.7 MB/s
+FileRate   = 89.9 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 04:43:13
+

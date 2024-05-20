@@ -1,0 +1,1 @@
+dism /export-image /sourceimagefile:F:\v1909\2\install.wim /sourceindex:1 /DestinationImageFile:G:\10v1909Enterprise_CustomInstall.wim /destinationname:"Components Removed"

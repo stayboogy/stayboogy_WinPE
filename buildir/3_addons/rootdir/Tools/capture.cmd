@@ -1,1 +1,0 @@
-dism /capture-image /imagefile:D:\WINDOWS_LAST_M.wim /capturedir:C:\ /name:WINDOWS_BACKUP /compress:fast /ea

@@ -1,0 +1,17 @@
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:20:06
+<Source>  C:\Users\M\Desktop\MyProfileE.vhdx
+<DestDir> H:\Windows\Desktop\
+<Command> Diff (Size/Date)
+-------------------------------------------------
++ H:\Windows\Desktop\MyProfileE.vhdx   <20231119-070910 4,198,498,304>
+
+TotalRead  = 4,004 MiB
+TotalWrite = 4,004 MiB
+TotalFiles = 1 (0)
+TotalTime  = 06:10
+TransRate  = 11.3 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 07:26:17
+

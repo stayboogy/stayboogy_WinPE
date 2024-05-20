@@ -1,0 +1,31 @@
+board id
+Mac-F22589C8
+
+board serial
+C02129609OPDP001F
+
+serial number
+C02G31LCDC79
+
+board-id = "Mac-F22589C8"
+hw.model.reflectHost = "FALSE"
+hw.model = "MacBookPro6,1"
+serialNumber.reflectHost = "FALSE"
+serialNumber = "C02G31LCDC79"
+smbios.reflectHost = "FALSE"
+
+ethernet0.addressType = "static"
+ethernet0.Address = "0:3:93:0:0:0"
+ethernet0.checkMACAddress = "false"
+
+uuidgen
+29A05C94-1C1D-4355-B8D2-B0DF50733F21
+MLB: C021431084NF9H0JC
+
+efi.nvram.var.ROM.reflectHost = "FALSE"
+efi.nvram.var.MLB.reflectHost = "FALSE"
+efi.nvram.var.ROM = "B0DF50733F21"
+efi.nvram.var.MLB = "C021431084NF9H0JC"
+
+
+00:50:56:25:be:01

@@ -1,1 +1,0 @@
-reg load HKLM\WIMREGISTRY c:\Users\M\Desktop\Mount\Windows\system32\config\software

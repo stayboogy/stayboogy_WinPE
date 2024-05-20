@@ -1,0 +1,23 @@
+grub install from live cd
+__________________________________
+sudo su
+mount /dev/sdb1 /mnt
+mount --bind /dev /mnt/dev &&
+mount --bind /dev/pts /mnt/dev/pts &&
+mount --bind /proc /mnt/proc &&
+mount --bind /sys /mnt/sys
+chroot /mnt
+grub-install /dev/sdb
+update-grub
+exit
+exit
+
+
+grub terminal commands
+_______________________________
+
+ls /
+ls (hdX,Y)
+ls (hdX,Y)/
+linux (hdX,Y)/boot/vmlinux-3.0.2....
+initrd (hdX,Y)/boot/vmlinux-3.0.2....

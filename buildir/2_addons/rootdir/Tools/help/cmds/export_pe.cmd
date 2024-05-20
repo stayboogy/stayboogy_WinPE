@@ -1,0 +1,1 @@
+dism /export-image /sourceimagefile:C:\Users\Administrator\Desktop\autoadmin.wim /SourceIndex:1 /destinationimagefile:C:\Users\Administrator\Desktop\new_AutoAdminInstall.wim /compress:max

@@ -1,3 +1,0 @@
-firmware="efi" 
-
-ulm.disableMitigations = "true"

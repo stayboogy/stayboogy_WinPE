@@ -1,0 +1,7 @@
+dism /export-image /sourceimagefile:K:\1\install.wim /sourceindex:1 /DestinationImageFile:K:\10v1909Enterprise_Install_M-perf.wim /destinationname:"Registry Tweaks"
+
+dism /export-image /sourceimagefile:K:\2\install.wim /sourceindex:1 /DestinationImageFile:K:\10v1909Enterprise_Install_M-perf.wim /destinationname:"Registry Tweaks and Components Removed"
+
+dism /export-image /sourceimagefile:K:\3\install.wim /sourceindex:1 /DestinationImageFile:K:\10v1909Enterprise_Install_M-perf.wim /destinationname:"Inspiron 5570"
+
+dism /export-image /sourceimagefile:K:\4\installed.wim /sourceindex:1 /DestinationImageFile:K:\10v1909Enterprise_Install_M-perf.wim /destinationname:"Inspiron 5570 VHD M"

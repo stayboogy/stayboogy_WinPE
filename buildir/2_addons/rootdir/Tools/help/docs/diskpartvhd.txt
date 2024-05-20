@@ -1,0 +1,15 @@
+diskpart
+Select vdisk file="C:\5570-10.vhd"
+list vdisk
+expand vdisk maximum=40000
+attach vdisk
+list disk
+
+-- If disk is not online… Use “Online Disk” to bring it online
+
+list volume
+select volume 9
+extend
+list volume
+detach vdisk 
+exit

@@ -1,0 +1,5 @@
+git checkout old-branch-name
+git push remote-name new-branch-name
+git push remote-name :old-branch-name
+git branch -m new-branch-name
+

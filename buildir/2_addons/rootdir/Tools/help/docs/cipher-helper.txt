@@ -1,0 +1,12 @@
+cipher /e /s:directory
+
+cipher /e file
+
+cipher /d
+
+cipher /d /s:directory
+
+cipher
+
+cipher /u
+
