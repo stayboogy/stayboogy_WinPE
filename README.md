@@ -33,7 +33,7 @@ WinPE boot.wim
 Recovery.tag
 boot.sdi
 ```
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-recdrive.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-recdrive.png)
 
 
 ## 5) copy the following file to your Windows System partition:
@@ -41,7 +41,7 @@ boot.sdi
 ```javascript
 System.tag
 ```
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-sysdrive.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-sysdrive.png)
 
 
 ## 6) use your chosen method to add your WinPE boot.wim in your bcdstore as your second boot option
@@ -88,36 +88,36 @@ bcdedit.exe /store C:\Boot\BCD /set {guid2} device ramdisk=[X:]\factory.wim,{gui
 bcdedit.exe /store C:\Boot\BCD /displayorder {guid2} /addlast
 ```
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-bcd.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-bcd.png)
 
 
 ## 7) reboot your system and choose your new Recovery Boot Option
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-bootm.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-bootm.png)
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-bootm1.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-bootm1.png)
 
 
 ## 8) on first boot of the Recovery System, it will fail to find a refresh image and prompt to make a new one
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-firstboot.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-firstboot.png)
 
 
 ## 9) make a new refresh image using the system, it will reboot when finished
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-imagesaved.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-imagesaved.png)
 
 
 ## 10) reboot back into your Recovery Boot Option
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-bootm1.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-bootm1.png)
 
 
 ## 11) when it asks to restore the refresh image, answer "Y" to restore and test and verify your backup made previously
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-restorestart.png)
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-restore.png)
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_WinPE-AutoRestore/raw/branch/main/Screenshots/screen-restoredone.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-restorestart.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-restore.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_WinPE/blob/92ccce2b0733eb1cd5844232d1e97249a31540f0/Screenshots/screen-restoredone.png)
 
 
 ## 12) in the future, to create a new refresh image with all your new updated settings and programs, just reboot into the Recovery System again, and answer "B" when it asks to restore the refresh image and it will make a new refresh image instead of restoring the one you have already.
