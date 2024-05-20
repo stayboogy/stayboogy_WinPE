@@ -1,2 +1,0 @@
-wpeinit
-call refresh.cmd
