@@ -1,0 +1,4 @@
+set WS=%SystemRoot%\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy
+takeown /f %WS% /r /a > nul
+icacls %WS% /reset /t > nul
+rmdir /s /q %WS%

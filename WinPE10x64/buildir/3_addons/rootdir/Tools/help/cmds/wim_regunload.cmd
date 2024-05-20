@@ -1,0 +1,1 @@
+reg unload HKLM\WIMREGISTRY

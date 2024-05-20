@@ -1,0 +1,108 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: F:\Program Files (x86)\AOMEI Partition Assistant Standard Edition 6.0\PartAssist.exe
+Product Name: Windows (TM) 8 Preinstallation Environment
+Service Package: 
+OS Version: 6.3
+Total Memory: 3957 MB
+Available Memory: 3027 MB
+System Root: X:\Windows
+Processor Architecture: x86
+Processor Number: 4
+Current Time: 2016-5-8 22:6:39
+================================================================
+
+[0       ]sys.cpp(160): Failed to NtLoadDriver.
+AOMEI Partition Assistant 6.0 Standard Edition
+[0       ]PeInstatllDriver.cpp(87) Begin load inf
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?1
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		60549120 (28.87GB)	(3769,255,63,512)		TOSHIBA TransMemory      (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		C:		FAT32       	2098492    (1.00GB)	72264      (35.29MB)	2026228    (989.37MB)	Act                 	Primary		2048           		2100539        (130,191,57)		0           (0,32,33)			8		SYSTEM
+0	0		*:		Unallocated 	4192964    (2.00GB)	0          (0KB)	4192964    (2.00GB)	None                	Logical		2100540        		6293503        (391,191,56)		2100540     (130,191,58)			0		
+0	2		F:		NTFS(3.1)   	104857599  (50.00GB)	62773760   (29.93GB)	42083839   (20.07GB)	Boot Sys            	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		G:		NTFS(3.1)   	419430399  (200.00GB)	236805832  (112.92GB)	182624567  (87.08GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	1		D:		NTFS(3.1)   	60548480   (28.87GB)	1022848    (499.44MB)	59525632   (28.38GB)	Act                 	Primary		63             		60548543       (3768,247,63)		0           (0,1,1)			8		TOSHIBA
+
+[2       ]manager.cpp(369): Not find tag file.
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+
+==========================User Operations==============================
+1.Deleting Partition
+	Hard Disk:		1
+ 	Drive Letter:		C:
+ 	File System:		FAT32
+ 	Partition Label:	SYSTEM
+ 	Size:			1.00GB
+ 	Start Sector:		2048
+ 	PtStart Sector:		2048
+ 	Total Sector:		2098492
+ 	Wipe Data:		NO
+
+2.Creating Partition
+	Hard Disk:		1
+ 	Drive Letter:		C:
+ 	File System:		FAT32
+ 	Partition Label:	SYSTEM
+ 	Size:			2.99GB
+ 	Start Sector:		2048
+ 	PtStart Sector:		2048
+ 	Total Sector:		6279367
+ 	PtTotal Sector:		6279367
+ 	Logical/Primary:	Primary
+ 	Cluster Size:		8
+
+=======================================================================
+
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?1
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		60549120 (28.87GB)	(3769,255,63,512)		TOSHIBA TransMemory      (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		C:		FAT32       	6279367    (2.99GB)	14344      (7.00MB)	6265023    (2.99GB)	None                	Primary		2048           		6281414        (390,254,63)		0           (0,32,33)			8		SYSTEM
+0	2		F:		NTFS(3.1)   	104857599  (50.00GB)	62773760   (29.93GB)	42083839   (20.07GB)	Boot Sys            	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		G:		NTFS(3.1)   	419430399  (200.00GB)	236805832  (112.92GB)	182624567  (87.08GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	1		D:		NTFS(3.1)   	60548480   (28.87GB)	1022848    (499.44MB)	59525632   (28.38GB)	Act                 	Primary		63             		60548543       (3768,247,63)		0           (0,1,1)			8		TOSHIBA
+
+[2       ]manager.cpp(369): Not find tag file.

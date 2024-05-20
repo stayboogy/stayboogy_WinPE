@@ -1,0 +1,14 @@
+vmount v0.7 by erwan2212@gmail.com
+vmount createfixed path_to_vhd size(MB)
+vmount createdynamic path_to_vhd size(MB)
+vmount createchild path_to_child path_to_parent
+vmount attach path_to_vhd
+vmount attach path_to_iso (win8.1 only)
+vmount detach \\.\PhysicalDriveX (x32 version does not work here under x64)
+vmount detach path_to_vhd
+vmount expand path_to_vhd size(MB)
+vmount merge path_to_child
+vmount disks [filter]
+vmount partitions [filter]
+vmount mount x: \device\harddiskX\partitionX
+vmount umount letter

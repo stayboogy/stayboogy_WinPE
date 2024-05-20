@@ -1,0 +1,8 @@
+//do inside MacOS terminal
+
+sudo diskutil secureErase freespace 0 Sierra
+
+//do inside Windows terminal
+
+"C:\Program Files (x86)\VMware\VMware Workstation\vmware-vdiskmanager.exe -k D:\MACHINES\VMAC\MACOS_vmware\HDD\MACOS.vmdk"
+

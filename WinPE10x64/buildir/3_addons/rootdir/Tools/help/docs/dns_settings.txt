@@ -1,0 +1,5 @@
+Primary: 208.67.222.222
+Secondary: 208.67.220.220
+
+Primary: 84.200.69.80
+Secondary: 84.200.70.40

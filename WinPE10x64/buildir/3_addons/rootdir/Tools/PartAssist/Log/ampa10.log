@@ -1,0 +1,227 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Program Files (x86)\AOMEI Partition Assistant Standard Edition 6.0\PartAssist.exe
+Product Name: Windows 10 Enterprise 2015 LTSB
+Service Package: 
+OS Version: 6.3
+Total Memory: 3957 MB
+Available Memory: 2690 MB
+System Root: C:\windows
+Processor Architecture: AMD64
+Processor Number: 4
+Current Time: 2016-5-9 19:2:28
+================================================================
+
+[0       ]Utility.cpp(306): 64-bit operating system.
+AOMEI Partition Assistant 6.0 Standard Edition
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		625142448 (298.09GB)	(38913,255,63,512)		Hitachi HTS545032B9A300  (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	6279367    (2.99GB)	65728      (32.09MB)	6213639    (2.96GB)	Sys                 	Primary		2048           		6281414        (390,254,63)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62773168   (29.93GB)	42084431   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	237824456  (113.40GB)	181605943  (86.60GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	1		G:		FAT32       	2102467    (1.00GB)	57528      (28.09MB)	2044939    (998.51MB)	None                	Primary		2048           		2104514        (130,254,63)		0           (0,32,33)			8		
+1	2		H:		NTFS(3.1)   	623032000  (297.08GB)	96053536   (45.80GB)	526978464  (251.28GB)	None                	Primary		2105344        		625137344      (38912,254,63)		0           (131,13,11)			8		
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+
+==========================User Operations==============================
+1.Deleting Partition
+	Hard Disk:		2
+ 	Drive Letter:		H:
+ 	File System:		NTFS
+ 	Partition Label:	
+ 	Size:			297.08GB
+ 	Start Sector:		2105344
+ 	PtStart Sector:		2105344
+ 	Total Sector:		623032000
+ 	Wipe Data:		NO
+
+2.Deleting Partition
+	Hard Disk:		2
+ 	Drive Letter:		G:
+ 	File System:		FAT32
+ 	Partition Label:	
+ 	Size:			1.00GB
+ 	Start Sector:		2048
+ 	PtStart Sector:		2048
+ 	Total Sector:		2102467
+ 	Wipe Data:		NO
+
+=======================================================================
+
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		625142448 (298.09GB)	(38913,255,63,512)		Hitachi HTS545032B9A300  (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	6279367    (2.99GB)	65728      (32.09MB)	6213639    (2.96GB)	Sys                 	Primary		2048           		6281414        (390,254,63)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62772096   (29.93GB)	42085503   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	237824456  (113.40GB)	181605943  (86.60GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	0		*:		Unallocated 	625138352  (298.09GB)	0          (0KB)	625138352  (298.09GB)	None                	Logical		0              		625138351      (38913,15,62)		0           (0,0,1)			0		
+
+
+==========================User Operations==============================
+1.Creating Partition
+	Hard Disk:		2
+ 	Drive Letter:		G:
+ 	File System:		NTFS
+ 	Partition Label:	WORKER
+ 	Size:			298.09GB
+ 	Start Sector:		2048
+ 	PtStart Sector:		2048
+ 	Total Sector:		625135296
+ 	PtTotal Sector:		625135297
+ 	Logical/Primary:	Primary
+ 	Cluster Size:		8
+
+=======================================================================
+
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		625142448 (298.09GB)	(38913,255,63,512)		Hitachi HTS545032B9A300  (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	6279367    (2.99GB)	65728      (32.09MB)	6213639    (2.96GB)	Sys                 	Primary		2048           		6281414        (390,254,63)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62772104   (29.93GB)	42085495   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	237824456  (113.40GB)	181605943  (86.60GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	1		G:		NTFS(3.1)   	625135296  (298.09GB)	268384     (131.05MB)	624866912  (297.96GB)	None                	Primary		2048           		625137344      (38912,254,63)		0           (0,32,33)			8		WORKER
+
+
+==========================User Operations==============================
+1.Deleting Partition
+	Hard Disk:		2
+ 	Drive Letter:		G:
+ 	File System:		NTFS
+ 	Partition Label:	WORKER
+ 	Size:			298.09GB
+ 	Start Sector:		2048
+ 	PtStart Sector:		2048
+ 	Total Sector:		625135296
+ 	Wipe Data:		NO
+
+2.Creating Partition
+	Hard Disk:		2
+ 	Drive Letter:		G:
+ 	File System:		NTFS
+ 	Partition Label:	
+ 	Size:			20.00GB
+ 	Start Sector:		2048
+ 	PtStart Sector:		2048
+ 	Total Sector:		41943666
+ 	PtTotal Sector:		41943667
+ 	Logical/Primary:	Primary
+ 	Cluster Size:		8
+
+3.Setting Active Partition
+	Hard Disk:		2
+ 	Drive Letter:		G:
+ 	File System:		NTFS
+ 	Partition Label:	
+ 	Size:			20.00GB
+ 	PtStart Sector:		2048
+ 	PtTotal Sector:		41943667
+
+4.Creating Partition
+	Hard Disk:		2
+ 	Drive Letter:		H:
+ 	File System:		NTFS
+ 	Partition Label:	
+ 	Size:			278.09GB
+ 	Start Sector:		41947136
+ 	PtStart Sector:		41947136
+ 	Total Sector:		583190208
+ 	PtTotal Sector:		583190209
+ 	Logical/Primary:	Primary
+ 	Cluster Size:		8
+
+=======================================================================
+
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		625142448 (298.09GB)	(38913,255,63,512)		Hitachi HTS545032B9A300  (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	6279367    (2.99GB)	65728      (32.09MB)	6213639    (2.96GB)	Sys                 	Primary		2048           		6281414        (390,254,63)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62774192   (29.93GB)	42083407   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	237824456  (113.40GB)	181605943  (86.60GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	1		G:		NTFS(3.1)   	41943666   (20.00GB)	195296     (95.36MB)	41748370   (19.91GB)	Act                 	Primary		2048           		41945714       (2610,254,63)		0           (0,32,33)			8		
+1	2		H:		NTFS(3.1)   	583190208  (278.09GB)	248672     (121.42MB)	582941536  (277.97GB)	None                	Primary		41947136       		625137344      (38912,254,63)		0           (2611,22,36)			8		
+

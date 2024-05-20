@@ -1,0 +1,6 @@
+qemu-system-x86_64 -bios C:\Tools\qemu\share\ovmf_share\OVMF\OVMF.fd -accel whpx,kernel-irqchip=off -m 8G -smp 2 -hda ./Linux.img -cdrom ./DVRLinux.iso -boot menu=on
+
+qemu-system-x86_64 -bios C:\Tools\qemu\share\ovmf_share\OVMF\OVMF.fd -accel whpx,kernel-irqchip=off -m 8G -smp 2 -hda ./Linux.img -cdrom ./DVRLinux.iso -boot menu=on
+
+
+qemu-system-x86_64 -bios C:\Tools\qemu\share\ovmf_share\OVMF\OVMF.fd -accel whpx,kernel-irqchip=off -m 8G -smp 2 -hda ./Ventura-recovery.img -hdb ./macosdata.qcow2 -cdrom ./OpenCore.iso -boot menu=on

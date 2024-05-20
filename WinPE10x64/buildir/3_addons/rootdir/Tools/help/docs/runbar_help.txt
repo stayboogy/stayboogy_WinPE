@@ -1,0 +1,169 @@
+cmd
+taskmgr
+bootice
+gimagex
+qdir
+nsudo
+7zip
+fastcopy
+notepad
+filesearch
+
+System.Diagnostics.Process.Start(@"X:\Windows\System32\cmd.exe");
+
+System.Diagnostics.Process.Start(@"X:\Windows\System32\taskmgr.exe");
+
+System.Diagnostics.Process.Start(@"X:\Tools\bootice.exe");
+
+System.Diagnostics.Process.Start(@"X:\Tools\gimagex.exe");
+
+System.Diagnostics.Process.Start(@"X:\Tools\Q-Dir\Q-Dir.exe");
+
+System.Diagnostics.Process.Start(@"X:\Tools\NSudo\NSudo.bat");
+
+System.Diagnostics.Process.Start(@"X:\Tools\7-Zip\7-Zip.bat");
+
+System.Diagnostics.Process.Start(@"X:\Tools\fastcopy\FastCopy.exe");
+
+System.Diagnostics.Process.Start(@"X:\Tools\note.exe");
+
+System.Diagnostics.Process.Start(@"X:\Tools\find.exe");
+
+
+
+Shell("start X:\Tools\7-Zip\7-Zip.bat")
+
+Process.Start("X:\Tools\7-Zip\7-Zip.bat");
+
+ProcessStartInfo 7zip = new ProcessStartInfo("cmd.exe");
+info.Arguments = "/K X:\Tools\7-Zip\7-Zip.bat";
+Process.Start(7zip);
+
+
+System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+startInfo.FileName = "notepad.exe";
+startInfo.Arguments = @"C:\Users\Administrator\Desktop\test.txt";
+System.Diagnostics.Process.Start(startInfo);
+
+
+
+
+
+
+System.Diagnostics.ProcessStartInfo rebootP = new System.Diagnostics.ProcessStartInfo();
+rebootP.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+rebootP.FileName = "wpeutil.exe";
+rebootP.Arguments = "Reboot";
+System.Diagnostics.Process.Start(rebootP);
+
+
+System.Diagnostics.ProcessStartInfo shutdownP = new System.Diagnostics.ProcessStartInfo();
+shutdownP.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+shutdownP.FileName = "wpeutil.exe";
+ShutdownP.Arguments = "Shutdown";
+System.Diagnostics.Process.Start(shutdownP);
+
+
+
+
+
+
+System.Diagnostics.ProcessStartInfo shutdownPe = new System.Diagnostics.ProcessStartInfo();
+rebootPe.FileName = "wpeutil.exe";
+rebootPe.Arguments = "Shutdown";
+System.Diagnostics.Process.Start(rebootPe);
+
+
+
+System.Diagnostics.Process process = new System.Diagnostics.Process();
+System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+startInfo.FileName = "cmd.exe";
+startInfo.Arguments = "/k start X:\Windows\System32\cmd.exe";
+process.StartInfo = startInfo;
+process.Start();
+
+
+System.Diagnostics.Process process = new System.Diagnostics.Process();
+System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+startInfo.FileName = "cmd.exe";
+startInfo.Arguments = "/C copy /b Image1.jpg + Archive.rar Image2.jpg";
+process.StartInfo = startInfo;
+process.Start();
+
+
+
+
+WORKING CODING
+
+namespace RunBar
+{
+    public partial class RunBar : Form
+    {
+        public RunBar()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Windows\System32\cmd.exe");
+        }
+
+        private void taskmgr_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Windows\System32\taskmgr.exe");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Tools\Q-Dir\QDir.cmd");
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Tools\bootice.exe");
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Tools\find.exe");
+        }
+
+        private void gimagex_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Tools\gimagex\gimagex.cmd");
+        }
+
+        private void nsudo_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Tools\NSudo\NSudo.bat");
+        }
+
+        private void zip_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Tools\7-Zip\7-Zip.bat");
+        }
+
+        private void fastcopy_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Tools\fastcopy\FastCopy.exe");
+        }
+
+        private void notepad2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Tools\note.exe");
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Windows\shutdown.cmd");
+        }
+
+        private void reboot_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"X:\Windows\reboot.cmd");
+        }
+    }
+}

@@ -1,0 +1,12 @@
+wsl --export (distribution) (filename.tar)
+
+wsl --export Debian debianbackup.tar
+
+wsl --import (distribution) (install location) (file location and filename)
+
+wsl --import Ubuntu c:\wsl c:\users\richard\desktop\ubuntumay27.tar
+
+wsl --unregister Debian
+
+wsl --set-version <distribution name> 2
+

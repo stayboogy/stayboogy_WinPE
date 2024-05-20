@@ -1,0 +1,44 @@
+WINDOWS:
+
+set WS=%SystemRoot%\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy
+     takeown /f %WS% /r /a > nul
+     icacls %WS% /reset /t > nul
+     rmdir /s /q %WS%
+     
+set WS=%SystemRoot%\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy
+     takeown /f %WS% /r /a > nul
+     icacls %WS% /reset /t > nul
+     rmdir /s /q %WS%
+     
+set WS=%SystemRoot%\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+     takeown /f %WS% /r /a > nul
+     icacls %WS% /reset /t > nul
+     rmdir /s /q %WS%
+     
+set WS=%SystemRoot%\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe
+     takeown /f %WS% /r /a > nul
+     icacls %WS% /reset /t > nul
+     rmdir /s /q %WS%
+     
+     
+USERPROFILE:
+ 
+set WS=%SystemDrive%\Users\M\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy
+     takeown /f %WS% /r /a > nul
+     icacls %WS% /reset /t > nul
+     rmdir /s /q %WS%
+     
+set WS=%SystemDrive%\Users\M\AppData\Local\Packages\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy
+     takeown /f %WS% /r /a > nul
+     icacls %WS% /reset /t > nul
+     rmdir /s /q %WS%
+     
+set WS=%SystemDrive%\Users\M\AppData\Local\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+     takeown /f %WS% /r /a > nul
+     icacls %WS% /reset /t > nul
+     rmdir /s /q %WS%
+     
+set WS=%SystemDrive%\Users\M\AppData\Local\Packages\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe
+     takeown /f %WS% /r /a > nul
+     icacls %WS% /reset /t > nul
+     rmdir /s /q %WS%

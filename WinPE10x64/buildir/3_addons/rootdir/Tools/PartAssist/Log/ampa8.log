@@ -1,0 +1,97 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Program Files (x86)\AOMEI Partition Assistant Standard Edition 6.0\PartAssist.exe
+Product Name: Windows 10 Enterprise 2015 LTSB
+Service Package: 
+OS Version: 6.3
+Total Memory: 3957 MB
+Available Memory: 3084 MB
+System Root: C:\windows
+Processor Architecture: AMD64
+Processor Number: 4
+Current Time: 2016-5-8 22:54:58
+================================================================
+
+[0       ]Utility.cpp(306): 64-bit operating system.
+AOMEI Partition Assistant 6.0 Standard Edition
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+[21      ]disk.cpp(251): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 2
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		39070080 (18.63GB)	(2432,255,63,512)		ST920217AS               (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	6279367    (2.99GB)	65728      (32.09MB)	6213639    (2.96GB)	Sys                 	Primary		2048           		6281414        (390,254,63)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62759120   (29.93GB)	42098479   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	237823000  (113.40GB)	181607399  (86.60GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	1		G:		NTFS(3.1)   	16769810   (8.00GB)	4187320    (2.00GB)	12582490   (6.00GB)	Act                 	Primary		2048           		16771859       (1043,254,63)		0           (0,32,33)			8		SYSTEM
+1	2		H:		NTFS(3.1)   	22280894   (10.62GB)	161496     (78.86MB)	22119398   (10.55GB)	None                	Primary		16773120       		39054014       (2430,254,63)		0           (1044,20,1)			8		FILES
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+
+==========================User Operations==============================
+1.Formatting Partition
+	Hard Disk:		2
+ 	Drive Letter:		G:
+ 	File System:		NTFS => FAT32
+ 	Partition Label:	SYSTEM => SYSTEM
+ 	Size:			8.00GB
+ 	Start Sector:		2048
+ 	PtStart Sector:		2048
+ 	Total Sector:		16769810
+ 	PtTotal Sector:		16769812
+ 	Cluster Size:		8 => 8
+
+=======================================================================
+
+[5       ]vol.cpp(155): Create file the \ to fail.
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+[21      ]disk.cpp(251): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 2
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		39070080 (18.63GB)	(2432,255,63,512)		ST920217AS               (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	6279367    (2.99GB)	65728      (32.09MB)	6213639    (2.96GB)	Sys                 	Primary		2048           		6281414        (390,254,63)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62759200   (29.93GB)	42098399   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	237823000  (113.40GB)	181607399  (86.60GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	1		G:		FAT32       	16769810   (8.00GB)	32730      (15.98MB)	16737080   (7.98GB)	Act                 	Primary		2048           		16771859       (1043,254,63)		0           (0,32,33)			8		SYSTEM
+1	2		H:		NTFS(3.1)   	22280894   (10.62GB)	161496     (78.86MB)	22119398   (10.55GB)	None                	Primary		16773120       		39054014       (2430,254,63)		0           (1044,20,1)			8		FILES
+

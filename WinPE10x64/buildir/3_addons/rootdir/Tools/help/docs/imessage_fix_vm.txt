@@ -1,0 +1,24 @@
+board-id.reflectHost = "TRUE" to board-id.reflectHost = "FALSE"
+
+smc.version = "0"
+board-id = "Mac-827FB448E656EC26"
+hw.model.reflectHost = "FALSE"
+hw.model = "MacBookPro15,2"
+serialNumber.reflectHost = "FALSE"
+serialNumber = "C02X5080JHCD"
+smbios.reflectHost = "FALSE"
+
+REMOVE 
+ethernet0.addressType = "generated"
+ethernet0.generatedAddress = "xx:xx:xx:xx:xx:xx"
+ethernet0.generatedAddressOffset = "0"
+
+ADD
+ethernet0.addressType = "static"
+ethernet0.Address = "98-46-0A-00-00-00"
+ethernet0.checkMACAddress = "false"
+
+efi.nvram.var.ROM.reflectHost = "FALSE"
+efi.nvram.var.MLB.reflectHost = "FALSE"
+efi.nvram.var.ROM = "8A62DACC8B2F"
+efi.nvram.var.MLB = "C02831700CDJH4RUE"

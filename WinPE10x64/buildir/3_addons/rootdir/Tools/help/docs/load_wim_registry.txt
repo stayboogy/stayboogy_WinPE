@@ -1,0 +1,7 @@
+reg load HKLM\WimRegistry c:\AIKMount\windows\system32\config\software
+
+reg load HKEY_WIM\ c:\Users\M\Desktop\Mount\system32\config\system
+
+reg load HKLM\WimRegistry c:\Users\M\Desktop\Mount\Windows\system32\config\software
+
+reg unload HKLM\WimRegistry

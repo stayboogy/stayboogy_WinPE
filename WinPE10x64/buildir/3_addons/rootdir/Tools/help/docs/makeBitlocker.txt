@@ -1,0 +1,8 @@
+manage-bde -on c: -used
+
+manage-bde c: -protectors -add -rp -tpm
+
+manage-bde -protectors -enable c:
+
+manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+

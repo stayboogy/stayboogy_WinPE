@@ -1,0 +1,1 @@
+dism /capture-image /imagefile:G:\WINDOWS_LAST_M_VHD.wim /capturedir:J:\ /name:WINDOWS_BACKUP /compress:fast /ea

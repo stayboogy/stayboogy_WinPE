@@ -1,0 +1,281 @@
+=================================================
+FastCopy(ver5.4.2) start at 2023/11/19 03:40:14
+<Source>  E:\0_Master\3_Gaming\
+<DestDir> H:\0_Master\
+<Command> Copy (Overwrite)
+<FileLog> C:\Users\M\Desktop\FastCopy\Log\20231119-034014-0.log
+-------------------------------------------------
+
+TotalRead  = 61,234 MiB
+TotalWrite = 61,234 MiB
+TotalFiles = 10,161 (1,217)
+TotalTime  = 16:13
+TransRate  = 65.9 MB/s
+FileRate   = 10.4 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 03:56:27
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 04:43:10
+<Source>  E:\0_Master\1_EFI\
+<DestDir> H:\0_Master\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-044310-0.log
+-------------------------------------------------
+
+TotalRead  = 86 MiB
+TotalWrite = 86 MiB
+TotalFiles = 274 (87)
+TotalTime  = 3.1 sec
+TransRate  = 29.7 MB/s
+FileRate   = 89.9 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 04:43:13
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 05:08:52
+<Source>  G:\nand\
+<DestDir> F:\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-050852-0.log
+-------------------------------------------------
+
+TotalRead  = 24,340 MiB
+TotalWrite = 24,340 MiB
+TotalFiles = 11,790 (841)
+TotalTime  = 02:12
+TransRate  = 192.1 MB/s
+FileRate   = 88.7 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 05:11:05
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 04:43:45
+<Source>  E:\1_Recovery\
+<DestDir> H:\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-044345-0.log
+-------------------------------------------------
+
+TotalRead  = 102,418 MiB
+TotalWrite = 102,418 MiB
+TotalFiles = 447 (177)
+TotalTime  = 28:29
+TransRate  = 62.8 MB/s
+FileRate   = 0.26 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 05:12:14
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 05:12:31
+<Source>  E:\1_Recovery\
+<DestDir> H:\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-051231-0.log
+-------------------------------------------------
+
+TotalRead  = 0.0 MiB
+TotalWrite = 0.0 MiB
+TotalFiles = 0 (0)
+TotalSkip  = 102,418 MiB
+SkipFiles  = 447 (0)
+TotalTime  = 0.4 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 05:12:32
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 05:13:57
+<Source>  E:\0_Master\
+<DestDir> H:\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-051357-0.log
+-------------------------------------------------
+
+TotalRead  = 24,576 MiB
+TotalWrite = 24,576 MiB
+TotalFiles = 1 (0)
+TotalSkip  = 209,172 MiB
+SkipFiles  = 13,981 (0)
+TotalTime  = 07:29
+TransRate  = 57.3 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 05:21:27
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:16:58
+<Source>  C:\Users\M\Desktop\MyProfileE.vhdx
+<DestDir> H:\FromWindows\Desktop\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-071658-0.log
+-------------------------------------------------
+ Aborted by User
+
+TotalRead  = 2,250 MiB
+TotalWrite = 217 MiB
+TotalFiles = 0 (0)
+TotalTime  = 16.0 sec
+TransRate  = 14.2 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 2 / ErrDirs : 0) at 2023/11/19 07:17:15
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:20:06
+<Source>  C:\Users\M\Desktop\MyProfileE.vhdx
+<DestDir> H:\Windows\Desktop\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-072006-0.log
+-------------------------------------------------
+
+TotalRead  = 4,004 MiB
+TotalWrite = 4,004 MiB
+TotalFiles = 1 (0)
+TotalTime  = 06:10
+TransRate  = 11.3 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 07:26:17
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:21:15
+<Source>  C:\Users\M\Desktop\WebPages\
+<DestDir> H:\Windows\Desktop\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-072115-0.log
+-------------------------------------------------
+
+TotalRead  = 126 MiB
+TotalWrite = 126 MiB
+TotalFiles = 1,194 (68)
+TotalTime  = 06:02
+TransRate  = 0.37 MB/s
+FileRate   = 3.29 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 07:27:18
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:28:47
+<Source>  C:\Users\M\Documents\
+<DestDir> H:\Windows\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-072847-0.log
+-------------------------------------------------
+
+TotalRead  = 1,056 MiB
+TotalWrite = 1,056 MiB
+TotalFiles = 320 (94)
+TotalTime  = 02:22
+TransRate  = 7.79 MB/s
+FileRate   = 2.25 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 07:31:09
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:20:45
+<Source>  C:\Users\M\Desktop\MyProfile\
+<DestDir> H:\Windows\Desktop\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-072045-0.log
+-------------------------------------------------
+
+TotalRead  = 936 MiB
+TotalWrite = 936 MiB
+TotalFiles = 2,849 (818)
+TotalTime  = 10:43
+TransRate  = 1.53 MB/s
+FileRate   = 4.43 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 07:31:28
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:31:34
+<Source>  C:\Users\M\Pictures\
+<DestDir> H:\Windows\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-073134-0.log
+-------------------------------------------------
+
+TotalRead  = 358 MiB
+TotalWrite = 358 MiB
+TotalFiles = 307 (17)
+TotalTime  = 03:08
+TransRate  = 1.99 MB/s
+FileRate   = 1.63 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 07:34:43
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:31:54
+<Source>  C:\Users\M\Downloads\
+<DestDir> H:\Windows\Desktop\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-073154-0.log
+-------------------------------------------------
+
+TotalRead  = 3,238 MiB
+TotalWrite = 3,238 MiB
+TotalFiles = 4,358 (534)
+TotalTime  = 07:46
+TransRate  = 7.28 MB/s
+FileRate   = 9.34 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 07:39:40
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:46:57
+<Source>  C:\Users\M\Downloads\
+<DestDir> H:\Windows\Desktop\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-074657-0.log
+-------------------------------------------------
+
+TotalRead  = 0.0 MiB
+TotalWrite = 0.0 MiB
+TotalFiles = 0 (0)
+TotalSkip  = 3,238 MiB
+SkipFiles  = 4,358 (0)
+TotalTime  = 0.1 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 07:46:57
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 07:47:12
+<Source>  C:\Stayboogy\
+<DestDir> H:\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-074712-0.log
+-------------------------------------------------
+
+TotalRead  = 4,437 MiB
+TotalWrite = 4,437 MiB
+TotalFiles = 7,770 (360)
+TotalTime  = 13:49
+TransRate  = 5.61 MB/s
+FileRate   = 9.37 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 08:01:01
+
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 08:13:12
+<Source>  C:\Stayboogy\
+<DestDir> H:\
+<Command> Diff (Size/Date)
+<FileLog> C:\Tools\FastCopy\Log\20231119-081312-0.log
+-------------------------------------------------
+
+TotalRead  = 0.0 MiB
+TotalWrite = 0.0 MiB
+TotalFiles = 0 (0)
+TotalSkip  = 4,437 MiB
+SkipFiles  = 7,770 (0)
+TotalTime  = 0.1 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 08:13:12
+

@@ -1,0 +1,44 @@
+qemu-system-x86_64 -machine type=q35,accel=hax -smp cpus=2,cores=2 -cpu x64 max -m 8096 -vga vmware -boot dc -hda ./Windows.img -hdb ./WinInstall.img -cdrom ./StayboogyPE.iso
+
+
+qemu-system-x86_64 -m 24G -machine type=q35,accel=hvf -smp maxcpus=8,cpus=7,cores=4,threads=2 -cpu Nehalem hardDiskImage.qcow2
+
+
+qemu-system-x86_64 -m 8G -smp 2 -hda ./Windows.img -hdb ./WinInstall.img -boot d -cdrom ./StayboogyPE.iso -vga qxl
+
+
+
+
+
+qemu-system-x86_64 -m 8G -machine type=q35,accel=hvf -smp maxcpus=2,cpus=2,cores=2,threads=2 -cpu Nehalem hardDiskImage.qcow2
+
+qemu-system-x86_64 -m 8G -smp 2 -hda ./Windows.img -hdb ./WinInstall.img -boot dc -cdrom ./StayboogyPE.iso -vga 
+
+
+
+\
+-enable-kvm                                                    \
+-m 4G                                                          \
+-smp 2                                                         \
+-hda myVirtualDisk.qcow2                                       \
+-boot d                                                        \
+-cdrom linuxmint-21.1-cinnamon-64bit.iso                       \
+-netdev user,id=net0,net=192.168.0.0/24,dhcpstart=192.168.0.9  \
+-device virtio-net-pci,netdev=net0                             \
+-vga qxl                                                       \
+-device AC97
+
+
+
+-name "PC" -boot "c" -netdev user,id=mynet0 -device rtl8139,netdev=mynet0 -soundhw "ac97" -m 512 -usb -device usb-kbd -sendkeymenu "Control-Alt-Delete:0x3B,0x3A,0x75:Alt-Tab:0x3A,0x30:Print Screen:0x69" 
+
+
+-name Windows -boot c -m 8096
+
+
+qemu-system-x86_64" -name "PC" -hda "/Users/m/Machines/Windows/Windows.img" -cdrom "/Users/m/Machines/Windows/StayboogyPE.iso" -boot "d" -netdev user,id=mynet0 -device rtl8139,netdev=mynet0 -soundhw "ac97" -m 8096 -usb -device usb-kbd -device usb-mouse -sendkeymenu "Control-Alt-Delete:0x3B,0x3A,0x75:Alt-Tab:0x3A,0x30:Print Screen:0x69" 
+
+
+
+
+qemu-system-x86_64 -machine q35 -accel hvf -smp 2 -m 8096 -vga vmware -boot dc -hda ./Windows.img -hdb ./WinInstall.img -cdrom ./StayboogyPE.iso

@@ -1,0 +1,18 @@
+=================================================
+FastCopy(ver5.4.2 (Admin)) start at 2023/11/19 08:13:12
+<Source>  C:\Stayboogy\
+<DestDir> H:\
+<Command> Diff (Size/Date)
+-------------------------------------------------
+
+TotalRead  = 0.0 MiB
+TotalWrite = 0.0 MiB
+TotalFiles = 0 (0)
+TotalSkip  = 4,437 MiB
+SkipFiles  = 7,770 (0)
+TotalTime  = 0.1 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2023/11/19 08:13:12
+

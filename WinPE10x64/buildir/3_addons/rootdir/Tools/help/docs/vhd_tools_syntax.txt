@@ -1,0 +1,19 @@
+vmount createfixed path_to_vhd size(MB)
+
+vmount createfixed C:\seven.vhd 5120
+
+vmount attach C:\seven.vhd
+
+vmount umount X:
+
+vmount detach C:\seven.vhd
+
+
+vhdmount /p /f C:\seven.vhd
+
+vhdmount /u C:\seven.vhd
+
+
+vhdtool /create C:\seven.vhd 5368709120
+
+1024x1024x1024x5120

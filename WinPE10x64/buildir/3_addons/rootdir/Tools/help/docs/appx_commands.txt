@@ -1,0 +1,49 @@
+WIM:
+
+Get-AppxProvisionedPackage -Path G:\mount | Out-GridView -Passthru | Remove-AppxProvisionedPackage -Path G:\mount
+
+
+ONLINE:
+
+Get-AppxProvisionedPackage -Online | Out-GridView -Passthru | Remove-AppxProvisionedPackage -Online
+Get-AppxPackage | Out-GridView -PassThru | Remove-AppxPackage
+
+
+
+
+
+Get-AppxProvisionedPackage -Path G:\mount | Remove-AppxProvisionedPackage
+
+Get-AppxPackage | Out-GridView -PassThru | Remove-AppxPackage
+
+Get-AppxPackage -Path "G:\mount" | Out-GridView -Passthru | Remove-AppXPackage -Path "G:\mount"
+
+Get-WindowsPackage -Path G:\mount | Out-GridView -PassThru | Remove-WindowsPackage -Path G:\mount
+
+Get-WindowsCapability -Path G:\mount | Out-GridView -PassThru | Remove-WindowsCapability -Path G:\mount
+
+Get-AppxPackage | Out-GridView -Passthru | Remove-AppXPackage
+
+Dism /Image:G:\mount /Get-AppxPackage -allusers
+
+Get-AppxProvisionedPackage -Online | Out-GridView -PassThru | Remove-AppxProvisionedPackage -Online
+
+Get-AppxProvisionedPackage -Path "G:\mount" | Out-GridView -PassThru | Remove-AppxProvisionedPackage -Path "G:\mount"
+
+Get-AppxPackage
+    
+Get-AppxPackage | Select Name, PackageFullName
+
+Get-AppxPackage PackageFullName | Remove-AppxPackage
+
+Get-AppxPackage -allusers PackageFullName | Remove-AppxPackage
+
+Get-AppxPackage -user username PackageFullName | Remove-AppxPackage
+
+shell:appsfolder
+
+Add-AppxPackage -register "C:\Program Files\WindowsApps\PackageFullName\appxmanifest.xml" -DisableDevelopmentMode
+
+HoloCamera_1.0.0.5_neutral__cw5n1h2txyewy
+
+Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2017.125.40.0_x64__8wekyb3d8bbwe\appxmanifest.xml" -DisableDevelopmentMode

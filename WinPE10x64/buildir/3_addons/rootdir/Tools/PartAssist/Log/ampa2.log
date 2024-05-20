@@ -1,0 +1,191 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Program Files (x86)\AOMEI Partition Assistant Standard Edition 6.0\PartAssist.exe
+Product Name: Windows 10 Enterprise 2015 LTSB
+Service Package: 
+OS Version: 6.3
+Total Memory: 3957 MB
+Available Memory: 3066 MB
+System Root: C:\windows
+Processor Architecture: AMD64
+Processor Number: 4
+Current Time: 2016-5-8 17:31:43
+================================================================
+
+[0       ]Utility.cpp(306): 64-bit operating system.
+AOMEI Partition Assistant 6.0 Standard Edition
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		1953458176 (931.48GB)	(121597,255,63,512)		WD      My Passport 0748 (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	6291456    (3.00GB)	2629200    (1.25GB)	3662256    (1.75GB)	Act Sys             	Primary		2048           		6293503        (391,191,56)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62768392   (29.93GB)	42089207   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	236805832  (112.92GB)	182624567  (87.08GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	107743952  (51.38GB)	101984558  (48.63GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	0		*:		Unallocated 	16065      (7.84MB)	0          (0KB)	16065      (7.84MB)	None                	Logical		0              		16064          (0,254,63)		0           (0,0,1)			0		
+1	1		G:		NTFS(3.1)   	1953439676 (931.47GB)	1561359280 (744.51GB)	392080396  (186.96GB)	None                	Logical		16128          		1953455804     (121596,254,63)		16065       (1,0,1)			8		MY PASSPORT
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+
+==========================User Operations==============================
+1.Changing Drive Letter
+	Hard Disk:		1
+ 	Drive Letter:		*: => H:
+ 	File System:		FAT32
+ 	Partition Label:	SYSTEM
+ 	Size:			3.00GB
+
+=======================================================================
+
+[2       ]vol.cpp(258): Open drive (*:) fail.
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		1953458176 (931.48GB)	(121597,255,63,512)		WD      My Passport 0748 (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		H:		FAT32       	6291456    (3.00GB)	2629200    (1.25GB)	3662256    (1.75GB)	Act Sys             	Primary		2048           		6293503        (391,191,56)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62768672   (29.93GB)	42088927   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	236805832  (112.92GB)	182624567  (87.08GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	107743952  (51.38GB)	101984558  (48.63GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	0		*:		Unallocated 	16065      (7.84MB)	0          (0KB)	16065      (7.84MB)	None                	Logical		0              		16064          (0,254,63)		0           (0,0,1)			0		
+1	1		G:		NTFS(3.1)   	1953439676 (931.47GB)	1561359280 (744.51GB)	392080396  (186.96GB)	None                	Logical		16128          		1953455804     (121596,254,63)		16065       (1,0,1)			8		MY PASSPORT
+
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		1953458176 (931.48GB)	(121597,255,63,512)		WD      My Passport 0748 (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		H:		FAT32       	6291456    (3.00GB)	80408      (39.26MB)	6211048    (2.96GB)	Act Sys             	Primary		2048           		6293503        (391,191,56)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62769584   (29.93GB)	42088015   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	236805832  (112.92GB)	182624567  (87.08GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	110288544  (52.59GB)	99439966   (47.42GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	0		*:		Unallocated 	16065      (7.84MB)	0          (0KB)	16065      (7.84MB)	None                	Logical		0              		16064          (0,254,63)		0           (0,0,1)			0		
+1	1		G:		NTFS(3.1)   	1953439676 (931.47GB)	1561359280 (744.51GB)	392080396  (186.96GB)	None                	Logical		16128          		1953455804     (121596,254,63)		16065       (1,0,1)			8		MY PASSPORT
+
+
+==========================User Operations==============================
+1.Resizing Partition
+	Hard Disk:		1
+ 	Drive Letter:		H:
+ 	File System:		FAT32
+ 	Partition Label:	SYSTEM
+ 	Size:			3.00GB => 1.00GB
+ 	Start Sector:		2048
+ 	Total Sector:		6291456 => 2098492
+ 	Cluster Size:		8 => 8
+
+2.Creating Partition
+	Hard Disk:		1
+ 	Drive Letter:		I:
+ 	File System:		NTFS
+ 	Partition Label:	PE
+ 	Size:			1.99GB
+ 	Start Sector:		2105344
+ 	PtStart Sector:		2105281
+ 	Total Sector:		4176070
+ 	PtTotal Sector:		4176071
+ 	Logical/Primary:	Logical
+ 	Cluster Size:		4
+
+3.Formatting Partition
+	Hard Disk:		1
+ 	Drive Letter:		I:
+ 	File System:		NTFS => NTFS
+ 	Partition Label:	PE => PE
+ 	Size:			1.99GB
+ 	Start Sector:		2105344
+ 	PtStart Sector:		2105281
+ 	Total Sector:		4176070
+ 	PtTotal Sector:		4176071
+ 	Cluster Size:		4 => 4
+
+=======================================================================
+
+--------Resize FAT32 Partition------------
+[0       ]fatresize.cpp(379): Shrink FAT32 and Decrease FAT Table.
+[0       ]fatstd.cpp(1199): Fat32 Resize Operation Time: 3469
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		1953458176 (931.48GB)	(121597,255,63,512)		WD      My Passport 0748 (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		H:		FAT32       	2098492    (1.00GB)	72256      (35.28MB)	2026236    (989.37MB)	Act Sys             	Primary		2048           		2100539        (130,191,57)		0           (0,32,33)			8		SYSTEM
+0	6		I:		NTFS(3.1)   	4176070    (1.99GB)	51832      (25.31MB)	4124238    (1.97GB)	None                	Logical		2105344        		6281414        (390,254,63)		2105281     (131,12,11)			4		PE
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62769608   (29.93GB)	42087991   (20.07GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	236805832  (112.92GB)	182624567  (87.08GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	110288544  (52.59GB)	99439966   (47.42GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	0		*:		Unallocated 	16065      (7.84MB)	0          (0KB)	16065      (7.84MB)	None                	Logical		0              		16064          (0,254,63)		0           (0,0,1)			0		
+1	1		G:		NTFS(3.1)   	1953439676 (931.47GB)	1561359280 (744.51GB)	392080396  (186.96GB)	None                	Logical		16128          		1953455804     (121596,254,63)		16065       (1,0,1)			8		MY PASSPORT
+

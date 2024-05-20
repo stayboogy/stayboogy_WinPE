@@ -1,0 +1,21 @@
+use nsudo
+
+regedit /s "path\to\file"
+
+reg load HKLM\PESOFTWARE c:\Users\M\Desktop\Mount\Windows\system32\config\software
+
+reg unload HKLM\PESOFTWARE
+reg unload HKLM\PEDEFAULT
+
+reg load HKLM\PESOFTWARE "C:\Users\M\Desktop\MOUNT\Windows\System32\config\SOFTWARE"
+
+reg load HKLM\PEDEFAULT "C:\Users\M\Desktop\MOUNT\Windows\System32\config\DEFAULT"
+
+regedit /s "C:\Users\M\Desktop\Git\stayboogy_WinPEx64\WinPE10x64\buildir\3_addons\add_toregistry\copyprogress.reg"
+
+regedit /s "C:\Users\M\Desktop\Git\stayboogy_WinPEx64\WinPE10x64\buildir\3_addons\add_toregistry\dragdrop.reg"
+
+regedit /s "C:\Users\M\Desktop\Git\stayboogy_WinPEx64\WinPE10x64\buildir\3_addons\add_toregistry\expframe.reg"
+
+regedit /s "C:\Users\M\Desktop\Git\stayboogy_WinPEx64\WinPE10x64\buildir\3_addons\add_toregistry\viewfiles.reg"
+

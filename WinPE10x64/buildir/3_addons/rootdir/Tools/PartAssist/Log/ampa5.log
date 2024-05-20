@@ -1,0 +1,107 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Program Files (x86)\AOMEI Partition Assistant Standard Edition 6.0\PartAssist.exe
+Product Name: Windows 10 Enterprise 2015 LTSB
+Service Package: 
+OS Version: 6.3
+Total Memory: 3957 MB
+Available Memory: 2736 MB
+System Root: C:\windows
+Processor Architecture: AMD64
+Processor Number: 4
+Current Time: 2016-5-8 22:21:9
+================================================================
+
+[0       ]Utility.cpp(306): 64-bit operating system.
+AOMEI Partition Assistant 6.0 Standard Edition
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		39070079 (18.63GB)	(2431,255,63,512)		ST920217AS               (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	6279367    (2.99GB)	65728      (32.09MB)	6213639    (2.96GB)	Sys                 	Primary		2048           		6281414        (390,254,63)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62782168   (29.94GB)	42075431   (20.06GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	236805832  (112.92GB)	182624567  (87.08GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	0		*:		Unallocated 	39065983   (18.63GB)	0          (0KB)	39065983   (18.63GB)	None                	Logical		0              		39065982       (2431,189,61)		0           (0,0,1)			0		
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+
+==========================User Operations==============================
+1.Creating Partition
+	Hard Disk:		2
+ 	Drive Letter:		G:
+ 	File System:		NTFS
+ 	Partition Label:	SYSTEM
+ 	Size:			2.01GB
+ 	Start Sector:		2048
+ 	PtStart Sector:		2048
+ 	Total Sector:		4206981
+ 	PtTotal Sector:		4206982
+ 	Logical/Primary:	Primary
+ 	Cluster Size:		8
+
+2.Creating Partition
+	Hard Disk:		2
+ 	Drive Letter:		H:
+ 	File System:		NTFS
+ 	Partition Label:	FILES
+ 	Size:			16.61GB
+ 	Start Sector:		4210688
+ 	PtStart Sector:		4210688
+ 	Total Sector:		34843326
+ 	PtTotal Sector:		34843327
+ 	Logical/Primary:	Primary
+ 	Cluster Size:		8
+
+=======================================================================
+
+[0       ]disk.cpp(168) Disk0 is removble use?0
+[0       ]disk.cpp(168) Disk1 is removble use?0
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		WDC WD5000LPVX-22V0TT0 (Base Disk)
+1		39070079 (18.63GB)	(2431,255,63,512)		ST920217AS               (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	6279367    (2.99GB)	65728      (32.09MB)	6213639    (2.96GB)	Sys                 	Primary		2048           		6281414        (390,254,63)		0           (0,32,33)			8		SYSTEM
+0	2		C:		NTFS(3.1)   	104857599  (50.00GB)	62782176   (29.94GB)	42075423   (20.06GB)	Boot                	Primary		6293504        		111151103      (6918,213,15)		0           (391,191,57)			8		WINDOWS
+0	3		D:		NTFS(3.1)   	419430399  (200.00GB)	236805832  (112.92GB)	182624567  (87.08GB)	None                	Primary		111151104      		530581503      (33027,43,40)		0           (6918,213,16)			8		DATA
+0	4		E:		NTFS(3.1)   	209728510  (100.01GB)	174718864  (83.31GB)	35009646   (16.69GB)	None                	Logical		530594884      		740323394      (46082,254,63)		530594821   (33028,0,2)			8		RECOVERY
+0	5		*:		Ext4        	236444600  (112.75GB)	4265976    (2.03GB)	232178624  (110.71GB)	None                	Logical		740323458      		976768064      (60800,254,63)		740323395   (46083,0,1)			8		
+
+1	1		G:		NTFS(3.1)   	4206981    (2.01GB)	51880      (25.33MB)	4155101    (1.98GB)	None                	Primary		2048           		4209029        (261,254,63)		0           (0,32,33)			8		SYSTEM
+1	2		H:		NTFS(3.1)   	34843326   (16.61GB)	190976     (93.25MB)	34652350   (16.52GB)	None                	Primary		4210688        		39054014       (2430,254,63)		0           (262,26,21)			8		FILES
+
